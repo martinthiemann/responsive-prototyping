@@ -1,0 +1,68 @@
+/* basic */
+
+html, body {
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+
+
+
+.container {
+	margin: 0 auto;
+  max-width: 1000px;
+}
+
+.island {
+	padding: 1rem;
+}
+
+.island-l {
+	padding: 2rem;
+}
+
+.island-s {
+	padding: .5rem;
+}
+
+.gap {
+  margin-bottom: 1rem;
+}
+
+.gap-l {
+  margin-bottom: 2rem;
+}
+
+.gap-s {
+  margin-bottom: .5rem;
+}
+
+.panel {
+background-color: $c-layout-1;
+border-radius: 5px;
+border: 1px solid $c-layout-2;
+}
+
+
+/* typography */
+
+.s {
+  font-size: .8em;
+}
+
+.l {
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
+.xl {
+  font-size: 1.5em;
+  line-height: 1.1em
+}
+
+.i {
+  font-style: italic;
+}
+
+.b {
+  font-weight: bold;
+}
