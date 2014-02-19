@@ -134,17 +134,17 @@ border: 1px solid $c-layout-2;
   border-radius: 4px;
   padding: .8rem 1rem;
   
-  a {
   color: inherit;
-  }
-  a:hover {
+  
+  &:hover {
+  color: inherit;
   text-decoration: none;
   }
 }
 
 .button-s {
   @extend .button;
-  padding: .4rem;
+  padding: .4rem 1rem;
   font-size: .85em;
 }
 
