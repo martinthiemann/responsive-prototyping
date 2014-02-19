@@ -1,5 +1,11 @@
 /* basic */
 
+
+*, html, body {
+  box-sizing: border-box;
+}
+
+
 html, body {
   font-family: sans-serif;
   line-height: 1.5em;
@@ -14,10 +20,7 @@ bottom: 0;
 
 
 
-.container {
-	margin: 0 auto;
-  max-width: 1000px;
-}
+/* spacing and gaps */
 
 .island {
 	padding: 1rem;
@@ -72,4 +75,40 @@ border: 1px solid $c-layout-2;
 
 .b {
   font-weight: bold;
+}
+
+
+
+/* flexbox */
+
+.flexbox {
+  display: -webkit-flex;
+
+  div {
+  flex: 1;
+  }
+
+  .flex-1 {
+  flex: 1;
+  }
+
+  .flex-2 {
+  flex: 2;
+  }
+
+  .flex-3 {
+  flex: 3;
+  }
+
+  .flex-4 {
+  flex: 4;
+  }
+
+  .flex-5 {
+  flex: 5;
+  }
+
+  .flex-6 {
+  flex: 6;
+  }
 }
