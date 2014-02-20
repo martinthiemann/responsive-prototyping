@@ -18,6 +18,15 @@ margin: 0;
 bottom: 0;
 }
 
+a:link, a:visited {
+  color: inherit;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 
 
 /* spacing and gaps */
@@ -191,6 +200,10 @@ border: 1px solid $c-layout-2;
   padding: .8rem 1rem;
   
   color: inherit;
+
+  &:link, &:visited {
+  text-decoration: none;
+  }
   
   &:hover {
   color: inherit;
@@ -210,6 +223,12 @@ border: 1px solid $c-layout-2;
   color: white;
   border-color: #000;
   font-weight: bold;
+
+  &:link, &:visited {
+  color: white;
+  text-decoration: none;
+  }
+
   &:hover {
   color: white;
   }
@@ -221,6 +240,12 @@ border: 1px solid $c-layout-2;
   color: white;
   border-color: #000;
   font-weight: bold;
+  
+  &:link, &:visited {
+  color: white;
+  text-decoration: none;
+  }
+
   &:hover {
   color: white;
   }
@@ -239,6 +264,7 @@ input {
   box-shadow: inset 0 1px 5px rgba(0,0,0,0.1);
   padding-left: .5rem;
   padding-right: .5rem;
+  width: 100%;
 }
 
 
