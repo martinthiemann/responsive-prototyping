@@ -306,3 +306,35 @@ hr {
 }
 
 
+.note {
+  position: relative;
+
+  p {
+    background: red;
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+    padding-left: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+  }
+  
+  &:hover {
+    p {
+    background: #fae7b5;
+    width: 200px;
+    height: 150px;
+    padding: 10px 10px 10px 25px;
+    overflow: scroll;
+    }
+    }
+}
+
+
+
+
+
+
+
